@@ -2,7 +2,7 @@
     .container{
         width: 970px;
     }
-    .coffee__bg{
+    .coffee__wrapper{
         width: 970px;
     }
     .collection{
@@ -27,8 +27,8 @@
             display: flex;
             list-style-type: none;
             position: absolute;
-            top: 50px;
-            left: -60px;
+            top: 70px;
+            left: -30px;
         }
         &__item{
             display: flex;
@@ -60,18 +60,20 @@
             line-height: 26px;
             text-align: center;
             color: #333D4B;
+            margin-top: 20px;
+
         }
         &__image-danche{
             margin-top: 15px;
         }
         &__intro__menu{
          list-style-type: none;
-         padding: 0;
+         padding:71px 0 0 0;
          margin: 0;
         }
     }    
     .choose{
-        margin: 0 0 100px 0;
+        margin: 188px 0 100px 0;
         &__wrapper{
             background-color: #2C343E;
             border-radius: 10px;
@@ -133,7 +135,7 @@
             line-height: 32px;
             text-align: center;
             color: #FEFCF7;
-            margin-top: 56px;
+            margin-top: 76px;
             margin-bottom: 24px;
         }
         &__text_menu{
@@ -154,12 +156,105 @@
     .image__car{
         padding: 63px 122px 10px 106px;
     }
+    // --------work----
+    .work{
+        padding-top: 150px;
+        &__title{
+            font-family: 'Fraunces';
+            font-weight: 900;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-left: 30px;
+        }
+        &__menu{
+        display: flex;
+        list-style-type: none;
+        margin-bottom: 64px;
+       padding: 0;
+       margin-left: 30px;
+    }
+    &__item{
+        margin-right: 50px;
+    }
+    &__item:nth-child(3){
+        margin-right: 0;
+    }
+    &__wrapper{
+        margin: 0  auto;
+        width: 1111px;
+        padding-bottom: 200px;
+    }
+    &__number{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-top: 67px;
+        margin-bottom: 38px;
+    }
+    &__tagline{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 42px;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    }
+    .line{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 2px;
+        width: 760px;
+        background-color: #FDD6BA;
+        margin-left: 30px;
+    }
+    .circle{
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        background: #FEFCF7;
+        border: 2px solid #0E8784;
+        /* box-sizing: border-box; */
+        border-radius: 50%;
+    }
+    .work__btn{
+        font-family: 'Fraunces';
+        padding: 15px 31px;
+        background: #0E8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        font-style: normal;
+        text-decoration: none;
+        margin-left: 37px;
+        &:hover{
+            background: #66D2CF;
+        }
+    }    
 }
 @media only screen and (max-width:1050px) {
     .container{
         width: 750px;
     }
-    .coffee__bg{
+    .coffee__wrapper{
         width: 750px;
     }
     .collection{
@@ -186,8 +281,8 @@
             flex-wrap: wrap;
             list-style-type: none;
             position: absolute;
-            top: 50px;
-            left: -60px;
+            top: 70px;
+            left: -30px;
         }
         &__item{
             display: flex;
@@ -210,7 +305,7 @@
             line-height: 30px;
             text-align: center;
             color: #333D4B;
-            margin: 0;
+
         }
         &__text-bags{
             width: 240px;
@@ -220,18 +315,24 @@
             line-height: 26px;
             text-align: center;
             color: #333D4B;
+            margin-top: 20px;
+
         }
         &__image-danche{
-            margin-top: 15px;
+            margin-top: 55px;
+            margin-left: 20px;
+        }
+        &__image-piccollo{
+            margin-top: 35px;
         }
         &__intro__menu{
          list-style-type: none;
-         padding: 0;
+         padding: 71px 0 0  0;
          margin: 0;
         }
     }    
     .choose{
-        margin: 400px 0 100px 0;
+        margin: 600px 0 100px 0;
         &__wrapper{
             background-color: #2C343E;
             border-radius: 10px;
@@ -325,7 +426,7 @@
     .container{
         width: 640px;
     }
-    .coffee__bg{
+    .coffee__wrapper{
         width: 640px;
         height: 480px;
     }
@@ -400,7 +501,7 @@
             flex-direction: column;
             list-style-type: none;
             position: absolute;
-            top: 40px;
+            top: 70px;
             left: 0px;
         }
         &__item{
@@ -433,6 +534,7 @@
             line-height: 26px;
             text-align: center;
             color: #333D4B;
+            margin-top: 20px;
         }
         &__image-danche{
             margin-top: 15px;
@@ -444,7 +546,7 @@
         }
     }  
     .choose{
-        margin: 700px 0 100px 0;
+        margin: 800px 0 100px 0;
         &__wrapper{
             background-color: #2C343E;
             border-radius: 10px;
@@ -538,225 +640,7 @@
         padding: 23px 0px 10px 86px;
     }  
 }
-@media only screen and (max-width:700px) {
-    .container{
-        width: 540px;
-    }
-    .coffee__bg{
-        width: 540px;
-    }
-    .coffee{
-        margin-top: 45px;
-        margin-bottom: 105px;
-        &__wrapper{
-            position: relative;
-        }
-        &__title{
-            font-family: 'Fraunces';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 48px;
-            line-height: 48px;
-            color: #FEFCF7;
-            margin: 0 0 24px 0;
-        }
-        &__text{
-            width: 398px;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            color: #FEFCF7;
-            opacity: 0.8;
-            font-style: normal;
-            margin: 0 0 40px 0;
-        }
-        &__btn{
-            font-family: 'Fraunces';
-            padding: 15px 31px;
-            background: #0E8784;
-            border-radius: 6px;
-            font-weight: 900;
-            font-size: 18px;
-            line-height: 25px;
-            text-align: center;
-            color: #FEFCF7;
-            font-style: normal;
-            text-decoration: none;
-        }
-        &__btn:hover{
-            background: #66D2CF;
-        }
-        &__intro-wrapper{
-            position: absolute;
-            top: 104px;
-            left: 58px;
-        }
-        
-    }
-    .collection{
-        padding-bottom: 200px;
-        &__wrapper{
-            margin: 0 auto;
-            width: 540px;
-            position: relative;
-        }
-        &__title{
-            font-family: 'Fraunces';
-            font-weight: 900;
-            font-size: 70px;
-            text-align: center;
-            font-style: normal;
-            background: linear-gradient(180deg,  #b3b3b3af  0% 10% , #FEFCF7 );
-            color:transparent;
-            background-clip: text;
-            -webkit-background-clip: text;
-            // margin: 0 ;
-        } 
-        &__menu{
-            display: flex;
-            flex-direction: column;
-            list-style-type: none;
-            position: absolute;
-            top: 70px;
-            left: -60px;
-        }
-        &__item{
-            display: flex;
-            flex-direction: row;
-            margin: 0;
-            margin-bottom: 48px;
-        }
-        &__item:last-child{
-            margin:0;
-        }
-        &__title-bags{
-            font-family: 'Fraunces';
-            text-align: center;
-            font-style: normal;
-            font-weight: 900;
-            font-size: 24px;
-            line-height: 32px;
-            text-align: center;
-            color: #333D4B;
-            margin: 0;
-            margin-top: -20px;
-        }
-        &__text-bags{
-            width: 289px;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 16px;
-            line-height: 26px;
-            text-align: center;
-            color: #333D4B;
-        }
-        &__image-danche{
-            margin-top: 15px;
-        }
-        &__intro__menu{
-         list-style-type: none;
-         padding: 0;
-         margin: 0;
-        }
-    }  
-    .choose{
-        margin: 700px 0 100px 0;
-        &__wrapper{
-            background-color: #2C343E;
-            border-radius: 10px;
-            width: 540px;
-            height: 473px;
-            display: flex;
-            flex-direction: column;
-        }
-        &__title{
-            text-align: center;
-            font-weight: 900;
-            font-style: normal;
-            font-size: 32px;
-            line-height: 48px;
-            text-align: center;
-            color: #FEFCF7;
-            padding: 100px;
-            margin: 0;
-            padding: 70px 0 24px 0 ;
-        }
-        &__text{
-            width: 500px;
-            font-family: 'Fraunces';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 20px;
-            color: #FEFCF7;
-            opacity: 0.6;
-            margin: 0 10px;
-            padding: 0 ;
-        }
-        &__menu{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            list-style-type: none;
-            margin-top: 50px;
-            padding: 0;
-        }
-        &__item{
-            display: flex;
-            flex-direction: row;
-            width: 470px;
-            height: 160px;
-            background: #0E8784;
-            border-radius: 8px;
-            margin: 0 0 14px 0;
-        }
-        &__item:nth-child(3){
-            margin-right: 0;
-        }
-        &__image{
-            width: 56px;
-            height: 56px;
-            padding: 22px 20px 10px 36px;
-        }
-        &__title_menu{
-            font-family: 'Fraunces';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 24px;
-            line-height: 32px;
-            text-align: left;
-            color: #FEFCF7;
-            margin-top: 26px;
-            margin-bottom: 5px;
-        }
-        &__text_menu{
-            width: 324px;
-            height: 50px;
-            color: #FEFCF7;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: left;
-            padding: 0;
-            opacity: 0.8;
-        }
-        &__intro__menu{
-            list-style-type: none;
-        }
-    }
-    .image__surprise{
-        width: 62px;
-        height: 62px;
-        padding: 22px 20px 10px 35px;
-    }
-    .image__car{
-        width: 62px;
-        height: 62px;
-        padding: 23px 20px 10px 36px;
-    }  
-}
+
 @media only screen and (max-width:700px) {
     .container{
         width: 490px;
@@ -767,7 +651,7 @@
     .header__bar{
         display: block;
     }
-    .coffee__bg{
+    .coffee__wrapper{
         width: 490px;
     }
     .coffee{
@@ -843,7 +727,7 @@
             list-style-type: none;
             position: absolute;
             top: 70px;
-            left: -100px;
+            left: -60px;
         }
         &__image-bag{
             width: 240px;
@@ -890,6 +774,8 @@
             line-height: 26px;
             text-align: center;
             color: #333D4B;
+            margin-top: 20px;
+
         }
         &__image-danche{
             margin-top: 15px;
@@ -931,7 +817,7 @@
             line-height: 20px;
             color: #FEFCF7;
             opacity: 0.6;
-            margin: 0 10px;
+            margin: 0 20px;
             padding: 0 ;
         }
         &__menu{
@@ -1010,7 +896,7 @@
     .header__bar{
         display: block;
     }
-    .coffee__bg{
+    .coffee__wrapper{
         width: 400px;
     }
     .coffee{
@@ -1085,12 +971,13 @@
             -webkit-background-clip: text;
         } 
         &__menu{
+            width: 410px;
             display: flex;
             flex-direction: column;
             list-style-type: none;
             position: absolute;
             top: 100px;
-            left:30px;
+            left:-9px;
         }
         &__image-bag{
             width: 240px;
@@ -1138,6 +1025,7 @@
             line-height: 26px;
             text-align: center;
             color: #333D4B;
+            margin-top: 20px;
         }
         &__image-danche{
             margin-top: 15px;
@@ -1255,7 +1143,7 @@
     .header__bar{
         display: block;
     }
-    .coffee__bg{
+    .coffee__wrapper{
         width: 300px;
     }
     .coffee{
@@ -1332,6 +1220,7 @@
             margin: 0;
         } 
         &__menu{
+            width: 300px;
             display: flex;
             flex-direction: column;
             list-style-type: none;
@@ -1372,18 +1261,16 @@
             font-weight: 900;
             font-size: 24px;
             line-height: 32px;
-            // text-align: center;
             color: #333D4B;
             margin: 0;
             margin-top: 20px;
         }
         &__text-bags{
-            // width: 289px;
             font-weight: normal;
             font-style: normal;
             font-size: 16px;
             line-height: 26px;
-            // text-align: center;
+            margin-top: 20px;
             color: #333D4B;
         }
         &__image-danche{
@@ -1406,6 +1293,259 @@
             background-color: #2C343E;
             border-radius: 10px;
             width: 300px;
+            height: 673px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__title{
+            font-family: 'Fraunces';
+            text-align: center;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 28px;
+            line-height: 28px;
+            text-align: center;
+            color: #FEFCF7;
+            padding: 64px 24px 24px 24px;
+        }
+        &__text{
+            width: 260px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 24px;
+            color: #FEFCF7;
+            opacity: 0.6;
+        }
+        &__menu{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            margin-top: 50px;
+            padding: 0;
+        }
+        &__item{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 260px;
+            height: 430px;
+            background: #0E8784;
+            border-radius: 8px;
+        }
+        &__item:nth-child(3){
+            margin-right: 0;
+        }
+        &__image{
+            width: 66px;
+            height: 66px;
+            padding: 72px 94px 36px 94px;
+        }
+        &__title_menu{
+            width: 260px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 52px;
+            color: #FEFCF7;
+            text-align: center;
+            margin: 0;
+        }
+        &__text_menu{
+            width: 240px;
+            height: 105px;
+            color: #FEFCF7;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 35px;
+            text-align: left;
+            padding: 24px 10px 0 10px;
+            opacity: 0.8;
+            text-align: center;
+        }
+        &__intro__menu{
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .image__surprise{
+        width: 72px;
+        height: 72px;
+        padding: 72px 94px 36px 94px;
+    }
+    .image__car{
+        width: 72px;
+        height: 72px;
+        padding: 72px 94px 36px 94px;
+    }  
+}
+
+@media only screen and (max-width:350px) {
+    .container{
+        width: 280px;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__bar{
+        display: block;
+    }
+    .coffee__wrapper{
+        width: 280px;
+    }
+    .coffee{
+        margin-top: 45px;
+        margin-bottom: 105px;
+        &__wrapper{
+            position: relative;
+        }
+        &__title{
+            width: 250px;
+            text-align: center;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 35px;
+            line-height: 40px;
+            color: #FEFCF7;
+        }
+        &__text{
+            width: 250px;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            opacity: 0.8;
+            font-style: normal;
+            text-align: center;
+        }
+        &__btn{
+            width: 160px;
+            font-family: 'Fraunces';
+            padding: 13px 25px;
+            background: #0E8784;
+            border-radius: 6px;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            font-style: normal;
+            text-decoration: none;
+        }
+        &__btn:hover{
+            background: #66D2CF;
+        }
+        &__intro-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 104px;
+            left: 25px;
+        }
+        
+    }
+    .collection{
+        padding-bottom: 100px;
+        &__wrapper{
+            margin: 0 auto;
+            width: 280px;
+            position: relative;
+        }
+        &__title{
+            font-family: 'Fraunces';
+            font-weight: 900;
+            font-size: 38px;
+            text-align: center;
+            font-style: normal;
+            background: linear-gradient(180deg,  #b3b3b3d8  0% 10% , #FEFCF7 );
+            color:transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            margin: 0;
+        } 
+        &__menu{
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            position: absolute;
+            top: 100px;
+            left:0px;
+        }
+        &__image-bag{
+            width: 240px;
+            height: 170px;
+        }
+        &__image-planalto{
+            width: 230px;
+            height: 170px;
+        }
+        &__image-piccollo{
+            width: 230px;
+            height: 170px;
+        }
+        &__image-danche{
+            width: 220px;
+            height: 160px;
+        }
+        &__item{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            margin-bottom: 48px;
+        }
+        &__item:last-child{
+            margin:0;
+        }
+        &__title-bags{
+            font-family: 'Fraunces';
+            text-align: center;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333D4B;
+            margin: 0;
+            margin-top: 20px;
+        }
+        &__text-bags{
+            font-weight: normal;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 24px;
+            color: #333D4B;
+        }
+        &__image-danche{
+            margin-top: 15px;
+        }
+        &__intro__menu{
+         list-style-type: none;
+         padding: 0;
+         margin: 0;
+        }
+        &__intro__item{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }  
+    .choose{
+        padding: 630px 0 100px 0;
+        &__wrapper{
+            background-color: #2C343E;
+            border-radius: 10px;
+            width: 280px;
             height: 673px;
             display: flex;
             flex-direction: column;
