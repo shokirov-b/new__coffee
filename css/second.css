@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+}
+/* ------------------header---------------------- */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 48px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar_item{
+    margin-left: 33px;
+}
+.navbar_link{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+    color: #83888F;
+}
+.navbar_link:hover{
+    color: #333D4B;
+}
+/* -------------section one--------- */
+.wrapper_one{
+    background-image: url(../img/about.jpg);
+    width: 1280px;
+    height: 450px;
+}
+.title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding: 137px 0 24px 85px;
+}
+.text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    padding-left: 85px;
+}
+/* ------------section two-------------------- */
+.two{
+    margin-top: 168px;
+    margin-bottom: 250px;
+}
+.main_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.coffee__master{
+    border-radius: 10px;
+}
+.left_commit{
+    margin-right: 125px;
+}
+.title_commit{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-bottom: 32px;
+    padding-top: 100px;
+}
+.text_commit{
+    width: 540px;
+    height: 260px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+/* ----------------section three---------------- */
+.three{
+    margin-bottom: 168px;
+}
+.quality{
+    display: flex;
+    background: #2C343E;
+    border-radius: 10px;
+    width: 1280px;
+    height: 474px;
+}
+.title_quality{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding: 90px 120px 32px 85px;
+}
+.text_quality{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-left: 85px;
+}
+.quality_right{
+    position: absolute;
+    transform: translate(750px,-60px);
+}
+.cupof{
+    border-radius: 10px;
+}
+/* ------------section four------------- */
+.four{
+    margin-bottom: 168px;
+}
+.country{
+    margin-left: 85px;
+
+}
+.country_list{
+    display: flex;
+    list-style-type: none;
+}
+.title_country{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.country_item{
+    width: 285px;
+    margin-top: 72px;
+    margin-right: 108px;
+}
+.image_country{
+   margin-bottom: 49px;
+}
+.tagline_united{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+.text_united{
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+/* -----------------footer------------------- */
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: #2C343E;
+    position: relative;
+}
+.logo{
+    margin: 48px 108px 47px 85px;
+}
+.footer_nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.footer_link{
+    color: #83888F;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 33px;
+}
+.footer_link:hover{
+    color: #FEFCF7;
+}
+.images{
+    position: absolute;
+    right: 86px;
+}
+.right{
+    margin-right: 24px;
+}
+.right:nth-child(3){
+    margin-right: 0;
+}
