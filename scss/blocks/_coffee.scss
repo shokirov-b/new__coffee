@@ -3,6 +3,11 @@
     margin-bottom: 165px;
     &__wrapper{
         position: relative;
+        background-image: url(../img/Bitmap.jpg);
+        background-repeat: no-repeat;
+        width: 1280px;
+        height: 600px;
+        border-radius: 10px;
     }
     &__title{
         font-family: 'Fraunces';
@@ -11,16 +16,19 @@
         font-size: 72px;
         line-height: 72px;
         color: #FEFCF7;
-        margin: 0 0 32px 0;
+        // margin: 0 0 32px 0;
+        padding: 0;
+        margin: 0;
     }
     &__text{
-        width: 445px;
+        width: 540px;
         font-weight: normal;
         font-size: 16px;
         line-height: 26px;
         color: #FEFCF7;
         opacity: 0.8;
         font-style: normal;
+        padding: 0;
         margin: 0 0 56px 0;
     }
     &__btn{
